@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "desafio-semanal-2022-poo",
     "public": "build",
     "ignore": [
       "firebase.json",
