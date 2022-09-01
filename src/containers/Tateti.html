@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src= "https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"> </script>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"> </script>
+    <link rel="stylesheet" href="stilos.css">
+    <script src = "tateti.js" type="text/javascript"></script>
+    <title>TATETI</title>
+</head>
+
+<body>
+    <header>
+        <h1> 3 en Raya - <strong>Tateti</strong></h1>
+        
+    </header>
+    <h2> <strong></strong> </h2>
+    <section>
+        <!-- El onsubmit lo usamos para llamar a la funcion que se creo en js -->
+        <form name="formuCbox" action="tateti-Clases.html" method="post">
+            <input type="checkbox"  onclick="claseTateti.validarPosi()" name="Cbox1" id= "cbox1" value="1"> 
+            <input type="text" name="num1" id="num1" value="" size="2" readonly >
+            <input type="checkbox" onclick="claseTateti.validarPosi()" name="Cbox2" value="2">
+            <input type="text" name="num2" id="num2" value="" size="2"readonly>
+            <input type="checkbox" onclick="claseTateti.validarPosi()" name="Cbox3"  value="3">
+            <input type="text" name="num3" id="num3"  value="" size="2"readonly>
+            <br>
+            <br>
+            <input type="checkbox" onclick="claseTateti.validarPosi()" name="cbox4" value="4">
+            <input type="text" name="num4" id="num4"  value="" size="2"readonly>
+            <input type="checkbox" onclick="claseTateti.validarPosi()" name="cbox5" value="5">
+            <input type="text" name="num5" id="num5"  value="" size="2"readonly>
+            <input type="checkbox" onclick="claseTateti.validarPosi()" name="cbox6" value="6">
+            <input type="text" name="num6" id="num6"  value="" size="2"readonly>
+            <br>
+            <br>
+            <input type="checkbox" onclick="claseTateti.validarPosi()" name="cbox7" value="7">
+            <input type="text" name="num7" id="num7"  value="" size="2"readonly>
+            <input type="checkbox" onclick="claseTateti.validarPosi()" name="cbox8" value="8">
+            <input type="text" name="num8" id="num8"  value="" size="2"readonly>
+            <input type="checkbox" onclick="claseTateti.validarPosi()" name="cbox9" value="9">
+            <input type="text" name="num9" id="num9"  value="" size="2"readonly>
+            <br>
+            <br>
+            <input type="radio" name="Jugadores" id="jug1" checked="checked"> Jugador 1
+            <input type="radio" name="Jugadores" id="jug2" checked="checked"> Jugador 2
+        </form>
+
+    </section>
+
+</body>
+</html
