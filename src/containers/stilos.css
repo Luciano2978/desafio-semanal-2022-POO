@@ -1,0 +1,63 @@
+body{
+    background: -webkit-radial-gradient(#8ccaff,#753b9d);
+    margin: 0px;
+    padding: 100px;
+}
+header{
+    /* animation-duration: 3s;
+    animation-name: slidein; */
+    text-align: center;
+    /* animation: animacion 5s; */
+    /* animation: movimiento 5s infinite; 
+    background: -webkit-radial-gradient(#8ccaff,#753b9d);
+    text-shadow: 10px;
+    /* color: aqua; */
+    position: relative;
+    font-size: 1.5cm;
+    text-decoration: none;
+    line-height: 1em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--clr);
+    border-right: 10px solid var(--clr);
+    -webkit-text-stroke: 1px var(--clr);
+    -webkit-text-stroke: 2px rgba(78, 74, 74, 0.5);
+    /* animation: nuevoMovimiento 5s; */
+    
+}
+/* h2{
+
+    animation: nuevoMovimiento 5s;
+    position: absolute;
+} */
+form{
+    -webkit-text-stroke-width: medium;
+    text-align: center; 
+    
+
+}
+
+@keyframes animacion {
+    /* Cuando Comienza*/
+    form{
+        transform: translateX(0px) ;
+    }
+    /* Cuando Termina*/
+    to{
+        transform: translateX(20px);
+    }
+}
+
+@keyframes movimiento{
+    0%   {top: 0px;}
+    25%  {top: 150px;}
+    75%  {top: 25px}
+    100% {top: 50px;}
+}
+
+@keyframes nuevoMovimiento {
+    0%   {top: 196px; left: 870px; background: red;width: 200px;height: 10px;}
+    100% {top: 196px; left: 870px; background: yellow;width: 200px;height: 10px;} 
+    
+}
+
